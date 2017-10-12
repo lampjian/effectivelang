@@ -1,0 +1,9 @@
+name:bigdata
+passd:dm
+
+name:antivirus
+passd:111
+
+-------------
+ubuntu:linux
+123
