@@ -1,0 +1,44 @@
+AsciiToUnicode	UTN.cpp	/^wstring AsciiToUnicode(const string& str) {  $/
+AsciiToUnicode_CSTR	UTN.cpp	/^CStringW    AsciiToUnicode_CSTR(const CStringA& st/
+AsciiToUtf8	UTN.cpp	/^string AsciiToUtf8(const string& str) {  $/
+AsciiToUtf8_CSTR	UTN.cpp	/^CStringA    AsciiToUtf8_CSTR(const CStringA& str) /
+CNoviewPDlg::AsciiToUnicode	testUTN.cpp	/^string CNoviewPDlg::AsciiToUnicode(string szString/
+CNoviewPDlg::UnicodeToAscii	testUTN.cpp	/^string CNoviewPDlg::UnicodeToAscii(string szString/
+IntToString	UTN.cpp	/^string IntToString(int i) {  $/
+IntToString	UTN.cpp	/^string IntToString(char i) {  $/
+IntToString	UTN.cpp	/^string IntToString(double i) {  $/
+MtestUTN.cpp	testUTN.cpp	/^int main()$/
+Muni2ascii	uni2ascii.c	/^int main()$/
+Mwchars.cpp	wchars.cpp	/^int main()$/
+StringToInt	UTN.cpp	/^int StringToInt(const string& str) {  $/
+UnicodeToAscii	UTN.cpp	/^string UnicodeToAscii(const wstring& wstr) {  $/
+UnicodeToAscii_CSTR	UTN.cpp	/^CStringA    UnicodeToAscii_CSTR(const CStringW& ws/
+UnicodeToUtf8	UTN.cpp	/^string UnicodeToUtf8(const wstring& wstr) {  $/
+UnicodeToUtf8_CSTR	UTN.cpp	/^CStringA    UnicodeToUtf8_CSTR(const CStringW& wst/
+Utf8ToAscii	UTN.cpp	/^string Utf8ToAscii(const string& str) {  $/
+Utf8ToAscii_CSTR	UTN.cpp	/^CStringA    Utf8ToAscii_CSTR(const CStringA& str) /
+Utf8ToUnicode	UTN.cpp	/^wstring Utf8ToUnicode(const string& str) {  $/
+Utf8ToUnicode_CSTR	UTN.cpp	/^CStringW    Utf8ToUnicode_CSTR(const CStringA& str/
+hex_digit	utf8.c	/^int hex_digit(char c)$/
+octal_digit	utf8.c	/^int octal_digit(char c)$/
+offsetsFromUTF8	utf8.c	27
+trailingBytesForUTF8	utf8.c	32
+u8_charnum	utf8.c	/^int u8_charnum(char *s, int offset)$/
+u8_dec	utf8.c	/^void u8_dec(char *s, int *i)$/
+u8_escape	utf8.c	/^int u8_escape(char *buf, int sz, char *src, int es/
+u8_escape_wchar	utf8.c	/^int u8_escape_wchar(char *buf, int sz, u_int32_t c/
+u8_inc	utf8.c	/^void u8_inc(char *s, int *i)$/
+u8_is_locale_utf8	utf8.c	/^int u8_is_locale_utf8(char *locale)$/
+u8_memchr	utf8.c	/^char *u8_memchr(char *s, u_int32_t ch, size_t sz, /
+u8_nextchar	utf8.c	/^u_int32_t u8_nextchar(char *s, int *i)$/
+u8_offset	utf8.c	/^int u8_offset(char *str, int charnum)$/
+u8_printf	utf8.c	/^int u8_printf(char *fmt, ...)$/
+u8_read_escape_sequence	utf8.c	/^int u8_read_escape_sequence(char *str, u_int32_t */
+u8_seqlen	utf8.c	/^int u8_seqlen(char *s)$/
+u8_strchr	utf8.c	/^char *u8_strchr(char *s, u_int32_t ch, int *charn)/
+u8_strlen	utf8.c	/^int u8_strlen(char *s)$/
+u8_toucs	utf8.c	/^int u8_toucs(u_int32_t *dest, int sz, char *src, i/
+u8_toutf8	utf8.c	/^int u8_toutf8(char *dest, int sz, u_int32_t *src, /
+u8_unescape	utf8.c	/^int u8_unescape(char *buf, int sz, char *src)$/
+u8_vprintf	utf8.c	/^int u8_vprintf(char *fmt, va_list ap)$/
+u8_wc_toutf8	utf8.c	/^int u8_wc_toutf8(char *dest, u_int32_t ch)$/

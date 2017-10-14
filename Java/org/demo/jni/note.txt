@@ -1,0 +1,7 @@
+// browse the java class byte code
+javap -v -p -s -sysinfo -constants Hello2.class
+
+// jni dynamic link lib generate
+javah name.class
+g++ -fPIC -shared -o libname.so name.cpp
+
