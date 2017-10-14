@@ -6,7 +6,6 @@ import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.lang.reflect.InvocationHandler;
 
 public class PergenOutOfMem {
 
@@ -49,12 +48,12 @@ public class PergenOutOfMem {
 	}
 
 	public static void testPergenOutOfMem3() {
-	// JDK dynamic proxy classes will be in heap, not permanent generation
+
 		while(true) {
 			final OOM oom = new OOM();
-			Proxy.newProxyInstance(oom.getClass().getClassLoader(), oom.getClass().getInterfaces(), new InvocationHandler() {
+			Proxy.newProxyInstance(oom.getClass().getClassLoader(), oom.getClass(), new InvocationHandler() {
 				public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-					Object result = method.invoke(oom, args);
+					Object result = method.invoke(oom.args);
 					return result;
 				}
 			});
