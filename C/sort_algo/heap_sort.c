@@ -1,8 +1,6 @@
-#include <cstdio>
-#include <cstdlib>
-#include <cmath>
-
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 int parent(int);
 int left(int);
@@ -93,13 +91,11 @@ void HeapSort(int A[], int heap_size)
 }
 
 /*测试,对给定数组做堆排序*/
-int main(int argc, char* argv[])
+void main(int argc, char* argv[])
 {
 	const int heap_size = 13;
 	int A[] = {19, 1, 10, 14, 16, 4, 7, 9, 3, 2, 8, 5, 11};
 	HeapSort(A, heap_size);
 	// system("pause");
 	system("echo pause...");
-
-	return 0;
 }

@@ -7,6 +7,7 @@
 int n = 0;
 short imp = false;
 
+// pointer and temp variable
 void swap(int *a, int *b)
 {
     int m;

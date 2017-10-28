@@ -1,0 +1,1 @@
+gcc wtest.c -o wtest world.o midcap.o -lstdc++
